@@ -13,6 +13,8 @@
 		608F7B051C0C7CAE008F4890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608F7B031C0C7CAE008F4890 /* Main.storyboard */; };
 		608F7B071C0C7CAE008F4890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608F7B061C0C7CAE008F4890 /* Assets.xcassets */; };
 		608F7B0A1C0C7CAE008F4890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608F7B081C0C7CAE008F4890 /* LaunchScreen.storyboard */; };
+		608F7B161C0C7F72008F4890 /* JMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 608F7B151C0C7F72008F4890 /* JMButton.m */; };
+		608F7B181C0C7FCF008F4890 /* 80x80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 608F7B171C0C7FCF008F4890 /* 80x80@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		608F7B061C0C7CAE008F4890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		608F7B091C0C7CAE008F4890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		608F7B0B1C0C7CAE008F4890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608F7B141C0C7F72008F4890 /* JMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMButton.h; sourceTree = "<group>"; };
+		608F7B151C0C7F72008F4890 /* JMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMButton.m; sourceTree = "<group>"; };
+		608F7B171C0C7FCF008F4890 /* 80x80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "80x80@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				608F7AFE1C0C7CAE008F4890 /* AppDelegate.m */,
 				608F7B001C0C7CAE008F4890 /* ViewController.h */,
 				608F7B011C0C7CAE008F4890 /* ViewController.m */,
+				608F7B171C0C7FCF008F4890 /* 80x80@2x.png */,
+				608F7B141C0C7F72008F4890 /* JMButton.h */,
+				608F7B151C0C7F72008F4890 /* JMButton.m */,
 				608F7B031C0C7CAE008F4890 /* Main.storyboard */,
 				608F7B061C0C7CAE008F4890 /* Assets.xcassets */,
 				608F7B081C0C7CAE008F4890 /* LaunchScreen.storyboard */,
@@ -137,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				608F7B0A1C0C7CAE008F4890 /* LaunchScreen.storyboard in Resources */,
+				608F7B181C0C7FCF008F4890 /* 80x80@2x.png in Resources */,
 				608F7B071C0C7CAE008F4890 /* Assets.xcassets in Resources */,
 				608F7B051C0C7CAE008F4890 /* Main.storyboard in Resources */,
 			);
@@ -149,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				608F7B161C0C7F72008F4890 /* JMButton.m in Sources */,
 				608F7B021C0C7CAE008F4890 /* ViewController.m in Sources */,
 				608F7AFF1C0C7CAE008F4890 /* AppDelegate.m in Sources */,
 				608F7AFC1C0C7CAE008F4890 /* main.m in Sources */,
