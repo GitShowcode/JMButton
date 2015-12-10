@@ -30,6 +30,16 @@
         
         [btn leftandRight:@"我是测试文字" andImage:[UIImage imageNamed:@"80x80"] andspace:6 andfontsize:16 andbuttonwidth:btn.frame.size.width andbuttonheight:btn.frame.size.height andblockoff:NO];
         [self.view addSubview:btn];
+      __weak  NSString *teststring=btn.currentTitle;
+        
+        btn.myblock=^(){
+          
+            UIAlertView *alertView=[[UIAlertView alloc] initWithTitle:@"Test" message:teststring delegate:nil cancelButtonTitle:@"取消" otherButtonTitles: nil];
+            [alertView show];
+            
+        };
+
+        
     }
     
     {

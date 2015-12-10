@@ -44,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		607F2D3C1C19A26F004BDD7D /* JMButton */ = {
+			isa = PBXGroup;
+			children = (
+				608F7B141C0C7F72008F4890 /* JMButton.h */,
+				608F7B151C0C7F72008F4890 /* JMButton.m */,
+			);
+			name = JMButton;
+			sourceTree = "<group>";
+		};
 		608F7AEE1C0C7CAE008F4890 = {
 			isa = PBXGroup;
 			children = (
@@ -63,13 +72,12 @@
 		608F7AF91C0C7CAE008F4890 /* JMButton */ = {
 			isa = PBXGroup;
 			children = (
+				607F2D3C1C19A26F004BDD7D /* JMButton */,
 				608F7AFD1C0C7CAE008F4890 /* AppDelegate.h */,
 				608F7AFE1C0C7CAE008F4890 /* AppDelegate.m */,
 				608F7B001C0C7CAE008F4890 /* ViewController.h */,
 				608F7B011C0C7CAE008F4890 /* ViewController.m */,
 				608F7B171C0C7FCF008F4890 /* 80x80@2x.png */,
-				608F7B141C0C7F72008F4890 /* JMButton.h */,
-				608F7B151C0C7F72008F4890 /* JMButton.m */,
 				608F7B031C0C7CAE008F4890 /* Main.storyboard */,
 				608F7B061C0C7CAE008F4890 /* Assets.xcassets */,
 				608F7B081C0C7CAE008F4890 /* LaunchScreen.storyboard */,
