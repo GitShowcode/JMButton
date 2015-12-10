@@ -4,4 +4,4 @@
 2.支持block
 
 Demo
-![image](https://github.com/GitShowcode/JMButton.git/blob/screenshots/IMG_1537.PNG)
+![image](https://github.com/GitShowcode/JMButton/blob/master/screenshots/IMG_1537.PNG)
